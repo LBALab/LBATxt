@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------
+ Changes history
+-------------------------------------------------------------------------
+### Changes in version 2.3:
+ - Slightly changed version numbering,
+ - Fixed some bugs in program languages support and example language file (reported by pkome),
+ - You can now start editing of selected text with the F2 key,
+ - You can now browse the text list with mouse scroll (Ctrl changes behaviour).
+
+
+### Changes in version 2.02:
+
+ - Fixed: Menus are now working properly under Win98 (thanks OBrasilo)
+ - Fixed: Menu colour selection sub-menu now remembers last setting
+ - New: Program now can open and save xml files. See "Save as" dialog filetype filter.
+ - New: German, Portugese and Chinese (simplified) translations of the program are included. Sorry guys, but it's been log time since I got them, and I don't remember who actually sent them to me. If you want to be credited just remind me :).
+
+
+ ### Changes in version 2.01b:
+ 
+ - Fixed: some translation bugs.
+ - Added: "Go to text:" option. To use it type the text number and press enter.
+ - Improved: Program now uses my unit that gives XP-style to menus and toolbars instead of Delphi's ActionToolbar, thus you will be able to open source code in Delphi 7 Personal, and the program looks overally nicer.
+ - You can now edit texts without even using a mouse. The shortcuts are:  
+    Arrow up - previous text
+    Arrow down - next text
+    Enter - edit selected text ("Go to text" field must be empty)
+  During editing (in the internal editor only):
+    Alt+Up - previous text
+    Alt+Down - next text
+    Esc - cancel editing
+    F2 - exit editing mode with saving changes
+
+
+ ### Changes in version 2.01a:
+
+ - Internal editor should now slide out and slide in faster on slow computers.
+ - internal editor is now closed when translator mode changes selection
+
+
+ ### Changes in version 2.01:
+
+ - Fixed bug when you saved the file as another file the internal filename didn't change
+ - You can now open a file even if it has bad last offset
+ - String editor now displays number of edited text
+ - Added conversion map list view
+ - You can now associate *.lbt files with the program
+ - Editor is now built into the main window (you can disable it and use standard editor)
+ - New feature: translator mode (see Readme.txt for description)
+
+
+ ### Changes in comparsion to Text Editor 1 version 1.4:
+
+ - Menu changed completely
+ - New feature: Search & Replace
+ - New feature: deleting, moving and adding entries (must be enabled in "Edit" menu)
+ - New feature: you can edit and create your own conversion maps
+ - New feature: preview selected text with LBA font (or your own font)
+ - New feature: file type autodetection
+ - New feature: recently opened files
+ - New feature: you can translate LBA Text Editor into your own language
+

@@ -1,0 +1,8 @@
+.dcu
+.~
+.7z
+.zip
+.xcf
+.lat
+.lbt
+.txt

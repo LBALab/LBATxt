@@ -1,0 +1,6 @@
+- get rid of internal editor selection on first move of opened text
+- detect language files in the program directory
+- ASCII character map
+- if a file is opened by path, sctrollbar gets focused instead of search box
+- "Go to Text" is not translated
+- and "menu colour set" too

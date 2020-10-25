@@ -1,0 +1,10 @@
+/TextLba/
+/Source/LBATxt/
+/Source/Libs/
+/Source/*.7z
+/Source/*.zip
+/Release/*.7z
+/Release/*.zip
+/Release/*.rar
+/Release/*.exe
+/Release/*.ini

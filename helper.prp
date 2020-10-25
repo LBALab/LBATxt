@@ -1,0 +1,21 @@
+[options]
+lastdir=E:\Delphi Progs\=LBA=\LBAPackEd
+text1=2003/2004
+text2=2003/2005
+lastdir1=E:\Delphi Progs\=LBA=\Libs
+lastdir2=E:\Delphi Progs\=LBA=\LBATxt\Source\Libs
+[files]
+0=*.pas
+1=*.dfm
+2=*dpr
+3=*cfg
+4=*dof
+5=*.res
+[exclusions]
+0=1MjShellUtils.pas
+1=strdata.pas
+[dirs]
+0From=E:\Delphi Progs\=LBA=\LBATxt
+0To=E:\Delphi Progs\=LBA=\LBATxt\Source\LBATxt
+1From=E:\Delphi Progs\=LBA=\Libs
+1To=E:\Delphi Progs\=LBA=\LBATxt\Source\Libs

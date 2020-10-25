@@ -1,0 +1,134 @@
+-------------------------------------------------------------------
+LBA Text Editor 2
+ edycja plików lbt (tekstów) z gier Little Big Adventure 1 i 2
+
+Copyright (C) Zink
+
+      Wersja: 2.3
+Data wydania: 16.11.2011
+    Licencja: GPL (bezp³atna)
+      E-mail: kazink@gmail.com - wszelkie uwagi mile widziane
+   Home site: lba.kazekr.net - tam jest zawsze najnowsza wersja
+
+Niniejszy program jest wolnym oprogramowaniem; mo¿esz go 
+rozprowadzaæ dalej i/lub modyfikowaæ na warunkach Powszechnej
+Licencji Publicznej GNU, wydanej przez Fundacjê Wolnego
+Oprogramowania - wed³ug wersji 2-giej tej Licencji lub którejœ
+z póŸniejszych wersji. 
+
+Niniejszy program rozpowszechniany jest z nadziej¹, i¿ bêdzie on 
+u¿yteczny - jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet domyœlnej 
+gwarancji PRZYDATNOŒCI HANDLOWEJ albo PRZYDATNOŒCI DO OKREŒLONYCH 
+ZASTOSOWAÑ. W celu uzyskania bli¿szych informacji - Powszechna 
+Licencja Publiczna GNU (Licencja.txt). 
+-------------------------------------------------------------------
+
+####################################
+ 1. Instrukcja
+####################################
+
+ Ta instrukcja jest krótka, poniewa¿ autor nie bardzo ma czas. Na dodatek nie ma te¿ zdolnoœci do pisania instrukcji, wiêc prawdopodobnie posostanie on taka jak jest. 
+
+
+ A. Otwieranie plików
+----------------------
+
+ ¯eby otworzyæ plik:
+  - kliknij menu "Plik", a nastêpnie kliknij "Otwórz...", lub
+  - kliknij przycisk z obrazkiem katalogu, lub
+  - przeci¹gnij plik tekstowy z LBA na ikonê programu kiedy nie jest on uruchomiony, lub 
+  - przeci¹gnij plik tekstowy z LBA do okna programu.
+
+ Po otwarciu wszystkie teksty z pliku s¹ widoczne w oknie g³ównym (u¿yj paska po prawej stronie do prawijania ich), jeœli chcesz edytowaæ któryœ teks kliknij dwa razy na nim lub zaznacz go i kliknij "Edytuj zaznaczony tekst" z menu "Edycja". 
+
+
+ B. Edycja plików
+------------------
+
+ Mo¿esz pracowaæ w dwóch trybach edycji: 
+  - Edytor w tym samym oknie - mo¿na go w³¹czyæ przez zaznaczenie odpowiedniej opcji w menu "Opcje". W tym trybie tekst mo¿na edytowaæ wewn¹trz g³ównego okna programu. Mo¿esz u¿ywaæ dodatkowych opcji z panelu, który pojawia siê po lewej stronie okna kiedy wchodzisz w tryb edycji. Ramka "Wyjœcie z pola edycji" umo¿liwia ustawienie czy przy zaznaczeniu innego tekstu lub klikniêciu czegoœæ na zewn¹trz edytora i panelu zmiany maj¹ byæ zapisywane czy odrzucane.
+  - Edytor w osobnym oknie - pokazuje siê je¿eli wewnêtrzny edytor jest wy³¹czony. Ma on prawie takie same opcje jak edytor wewnêtrzny.
+
+
+ C. Znajdowanie i zastêpowanie
+------------------------------- 
+
+ Kliknij "ZnajdŸ" w menu "Edycja", wpisz ci¹g znaków, który chcesz znaleŸæ, i kliknij <ZnajdŸ>. Jeœli szukany tekst nie zostanie znaleziony, zostanie wyœwietlona informacja. Jeœli ci¹g znaków zostanie znaleziony, zaznaczenie przesunie siê na tekst, który go zawiera. Je¿eli otworzysz ten tekst do edycji szukany fragment bêdzie zaznaczony. 
+ Je¿eli klikniesz "ZnajdŸ nastêpny" z menu "Edycja", program wyszuka nastêpny tekst, który zawiera szukane wyra¿enie, niezale¿nie od tego jak wiele razy szukane wyra¿enie wystêpuje w aktualnym tekœcie.
+ Je¿eli klikniesz przycisk z lup¹ i strza³k¹ kiedy jesteœ w okienku edycji, program wyszuka nastêpne wyst¹pienie szukanego ci¹gu znaków tylko w aktualnie otwartym tekœcie. Przycisk <ZnajdŸ> tak¿e odnosi siê TYLKO do aktualnie otwartego tekstu.
+
+ WA¯NE: Po klikniêciu "ZnajdŸ" z menu "Edycja" szukanie rozpoczyna sie ZAWSZE od pocz¹tku pierwszego tekstu, bez wzglêdu na to, który tekst jest aktualnie zaznaczony.
+ WA¯NE 2: Zawsze jest szukany DOK£ADNY tekst, który wpisa³eœ - razem ze spacjami i przecinkami.
+
+ Jeœli chcesz zast¹piæ jakiœ ci¹g znaków innym, kliknij "ZnajdŸ i zamieñ" z menu "Edycja", wpisz wymagane ci¹gi znaków i kliknij przycisk "Zast¹p wszystkie". To spowoduje zast¹pienie wszystkich wyst¹pieñ szukanego ciagu znaków we WSZYSTKICH tekstach.
+
+
+ D. Korzystanie z trybu t³umacza
+---------------------------------
+
+ W tym trybie mo¿esz otworzyæ wiêcej ni¿ jedn¹ kopiê programu i kiedy zaznaczysz tekst w jednym z nich, pozosta³e zaznacz¹ te same teksty w zale¿noœci od ustawieñ. Jest to przydatne w czasie t³umaczenia: mo¿esz otworzyæ t³umaczony tekst w jednym oknie, a oryginalny tekst w drugim i nie bêdziesz musia³ zaznaczaæ i przewijaæ tekstów w obydwu oknach, tylko w jednym z nich.
+
+ Tryb t³umacza mo¿na w³¹czyæ w menu "Opcje". Mo¿esz go ustawiæ w czterech trybach:
+ - Wysy³aj polecenia - program bêdzie wysy³a³ numer zaznaczonego tekstu do innych programów, ale nie bedzie reagowa³ na zaznaczenia w innych kopiach programu.
+ - Odbieraj polecenia - program bêdzie zaznacza³ teksty, których numery indeksowe dostanie z innych kopii programu (je¿eli maj¹ w³¹czon¹ odpowiedni¹ opcjê), ale nie bêdzie wysy³a³ takich indeksów do innych kopii.
+ - Wysy³aj i odbieraj polecenia - program bêdzie wysy³a³ indeksy zaznaczonych tekstów do innych kopii i bêdzie zaznacza³ teksty o o indeksach otrzymanych z innych kopii.
+ - Wy³¹czony - program nie bêdzie ani wysy³a³ numerów indeksowych, ani ich odbiera³. 
+ 
+ Aktualny tryb t³omacza nie jest zapisywany przy wychodzeniu z programu, a przy uruchamianiu zawsze zaznaczona jest opcja "Wy³¹czony". 
+
+Uwaga: Poniewa¿ wygl¹da na to, ¿e ta funkcja jest trudna do zrozumienia, umieszczam tu wyjaœnienie, którego udzieli³em koledze, który te¿ mia³ problemy z jej za³apaniem:
+ Uruchom program dwa razy, nastêpnie otwórz ten sam plik w obydwu programach, nastêpnie w pierwszym ustaw "Wysy³aj polecenia", a w drugim "Odbieraj polecenia". Nastêpnie klikaj ró¿ne teksty w pierwszym programie, a zobaczysz, ¿e drugi automatycznie zaznacza te same teksty.
+
+
+ E. Korzystanie z podgl¹du
+---------------------------
+
+ Kliknij "Podgl¹d zaznaczonego tekstu" z menu "Edycja" aby zobaczyæ jak zaznaczony tekst bêdzie wygl¹da³ w LBA. 
+ Uwaga: uk³ad linii w podgl¹dzie mo¿e nie zgadzaæ siêz uk³adem linii w prawdziwum LBA.
+ Jest tam kilka opcji, poznasz je najlepiej kiedy je wypróbujesz ;) 
+
+
+ F. Korzystanie z map konwersji
+--------------------------------
+ 
+ Mo¿esz dopasowaæ sposób wyœwietlania znaków w oknie g³ównym. W LBA i w Windowsie znaki narodowe maj¹ ró¿ne kody. Mapa konwersji zamienia znaki z ³adowanego pliku ze standardu LBA na standard Windows oraz zamienia je z powrotem przy sapisywaniu pliku, dlatego w edytorze widzisz w³asne znaki narodowe, a nie jakieœ dziwne znaki.
+
+ W menu "Mapa konwersji" mo¿esz wybraæ jaka mapa konwesji bêdzie u¿ywana. "Bez konwersji" oznacza, ¿e ¿adne znaki nie bêd¹ znamieniane w czasie ³adowania i zapisywania pliku tekstowego.
+
+ Uwaga: Jeœli zmienisz mapê konwersji kiedy masz otwarty plik tekstowy, musisz otworzyæ ten plik ponownie jeœli chcesz ¿eby by³ on konwertowany przy u¿yciu aktualnej mapy. W przeciwnym wypadku plik mo¿e zostaæ zapisany z innymi znakami, ni¿ mia³ wczeœniej.
+
+Mapa konwersji pokazuje które znaki s¹ zamieniane na inne. Mapa mo¿e byæ wyœwietlona w dwóch trybach. Zmiany wprowadzone w jednym trybie s¹ automatycznie przek³adane na drugi tryb, mo¿esz wiêc bez przeszkód prze³¹czaæ siê pomiêdzy trybami. 
+ - Widok tabeli pokazuje mapê konwersji jako tabelê, w której oznaczenia kolumn i wierszy oznaczaj¹ kody wszystkich znaków, a komórki oznaczaj¹ kody, na które odpowiednie znaki bêd¹ zamieniane. Na przyk³ad: Jeœli chcesz wiedzieæ jaki kod bêdzie mia³ znak $5A po za³adowaniu pliku, musisz popatrzeæ na pierwsz¹ kolumnê mapy i znaleŸæ wiersz oznaczony "50", nastêpnie popatrz na pierwszy wiersz i znajdŸ kolumnê oznaczon¹ "A". Na skrzy¿owaniu wiersza "50" i kolumny "A" znajdziesz znak, na który bêdzie zamieniony znak $5A. Kiedy ³adujesz plik, wszystkie znaki o kodach $5A s¹ zamieniane na znak, który znalaz³eœ, a kiedy zapisujesz plik, wszystkie znaki o kodzie, który znalaz³eœ s¹ zamieniane na $5A.
+ - Widok listy pokazuje mapê konwersji jako listê konwersji. Wyœwietla on bezpoœrednio które znaki s¹ zamieniane na które. Znaki, których nie ma na liœcie nie s¹ zamieniane. 
+
+ W ramce "Edycja kiedy" mo¿esz ustawiæ kiedy ma siê rozpoczynaæ edycja: Je¿eli zaznaczono "Klikniêty", edycja rozpocznie siê po klikniêciu komórki w tabeli lub wiersza listy. Je¿eli zaznaczono "Podw. klikniêty", musisz klikn¹æ podwójnie aby rozpocz¹æ edycjê.
+ 
+ W ramce "Wyj. z pola edycji" mo¿esz ustawiæ czy wpisana wartoœæ ma byæ zapisywana czy odrzucana kiedy jesteœ w trybie edycji i klikniesz cokolwiek na zewn¹trz pola edycji.
+
+
+ G. Edycja struktury pliku
+---------------------------
+ 
+ Aby w³¹czyæ edycjê struktury pliku musisz odznaczyæ "Zablokuj strukturê pliku" w menu "Edycja". 
+  
+ Nastêpnie mo¿esz przesuwaæ, dodawaæ i usuwaæ wpisy (menu "Edycja"), jednak nie jest to zalecane dopóki nie masz powodu ¿eby to robiæ.
+
+ H. Jak zrobiæ w³asne t³umaczenie programu
+-------------------------------------------
+
+ Otwórz plik "example.lng" jakimkolwiek edytorem tekstu. Musisz tylko przet³umaczyæ wszystkie teksty, które s¹ w œrodku. Nastêpnie mo¿esz zmieniæ nazwê pliku na jak¹ chcesz.
+
+ Aby otworzyæ plik jêzyka, kliknij "Z pliku..." z menu "Jêzyk".
+
+
+ I. Uwaga na temat autodetekcji
+--------------------------------
+
+ Autodetekcja by³a testowana na wszytkich oryginalnych angielskich tekstach z LBA 1 i 2. Jednak¿e jeœli s¹dzisz, ¿e nie dzia³a, mo¿esz j¹ wy³¹czyæ w menu "Opcje", by³bym te¿ wdziêczny za informacjê o tym fakcie.
+
+####################################
+ 2. Podziêkowania
+####################################
+
+ - AlexFont - za ca³okszta³t ;)
+ - pkome - za chiñskie t³umaczenie
